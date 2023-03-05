@@ -48,7 +48,7 @@ class WebServerHandler(BaseHTTPRequestHandler):
             self.write_header(content)
             self.end_headers()
 
-            return status, content
+        return status, content
 
     
     def read_content(self) -> Tuple[Literal[200, 404], bytes]:
