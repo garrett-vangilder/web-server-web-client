@@ -13,3 +13,13 @@ python client/web_client.py <host>:<port>/path verb
 ```
 
 ## Running the Server
+
+You can run the server using this command
+
+```bash
+python3 server/web_server.py <port> <directory>
+```
+
+## Demo / Artifacts
+
+All requirements can be demonstrated in the artifacts directory
