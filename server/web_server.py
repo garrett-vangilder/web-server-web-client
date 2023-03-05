@@ -94,7 +94,7 @@ class WebServer(HTTPServer):
 
 
 def parse_cmd_line_args():
-    parser = argparse.ArgumentParser(description="web_client")
+    parser = argparse.ArgumentParser(description="web_server")
     
     # first argument should be the port to expose
     parser.add_argument('port')
@@ -107,7 +107,7 @@ def parse_cmd_line_args():
 
 
 def main():
-    # initialize client
+    # initialize server
     logging.info("server::web_server::main")
     logger = logging.getLogger("web_server")
 
